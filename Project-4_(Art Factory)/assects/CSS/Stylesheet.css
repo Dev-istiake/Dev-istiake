@@ -1,0 +1,357 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Common styles */
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    color: #a4a7b1;
+}
+
+.font-uppercase {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.flexRowSpaceBetween {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexRowSpaceBetweenCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+/* Hear section start */
+
+.header-container {
+    background-image: url(../Images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 105vh;
+    margin: auto;
+}
+
+.Navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #2e2e9557;
+    border-bottom: 2px solid blue;
+}
+
+.main-nav {
+    width: 1140px;
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.main-nav-container {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+
+.nav-menu-container {
+    list-style: none;
+    font-size: 15px;
+}
+
+.nav-logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.nav-menu {
+    margin: 2px 13px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-menu a:hover {
+    color: rgb(189, 8, 134);
+}
+
+.welcome {
+    width: 100%;
+    display: flex;
+}
+
+.welc-continer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 160px auto 0;
+    max-width: 60%;
+}
+
+.welc-Info-container h1 {
+    font-size: 60px;
+    color: #ffff;
+    font-weight: 400;
+}
+
+.welc-Info-container span {
+    font-size: 60px;
+    color: #ffff;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.welc-Info-container p {
+    font-size: 15px;
+    max-width: 500px;
+    color: #eeeeee;
+    margin: 30px 0;
+    line-height: 1.8;
+}
+
+.welc-action {
+    margin-top: 43px;
+}
+
+.welc-act-button {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: red;
+    padding: 9px 20px;
+    border-radius: 100px;
+    transition: 0.5s ease-in;
+}
+
+.welc-act-button:hover {
+    background-color: rgb(71, 9, 218);
+}
+
+.Discover {
+    width: 100%;
+    margin: 120px auto auto;
+}
+
+.Dis-container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Dis-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column
+}
+
+.Dis-info-container h3 {
+    font-size: 23px;
+    max-width: 350px;
+    color: #000000;
+    line-height: 1.5;
+    font-weight: 550;
+    margin-bottom: 15px;
+}
+
+.Dis-info-container p {
+    max-width: 400px;
+    line-height: 1.7;
+    color: black;
+    font-weight: 450;
+    font-size: 14.8px;
+    margin: 13px 0;
+}
+
+.Dis-info-container p a {
+    color: blue;
+    text-decoration: none;
+}
+
+.Dis-action {
+    margin-top: 20px;
+}
+
+a.Dis-act-button {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: red;
+    padding: 9px 20px;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+a.Dis-act-button:hover {
+    background-color: rgb(71, 9, 218);
+}
+
+.slider-border {
+    content: "";
+    height: 2px;
+    width: 100%;
+    margin: 150px 0;
+    background-color: blueviolet;
+}
+
+.lerning {
+    width: 100%;
+    margin: 150px auto 0;
+}
+
+.learn-container {
+    width: 60%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.learn-cont-info h3 {
+    font-size: 27px;
+    max-width: 443px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.learn-cont-info p {
+    max-width: 450px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 450;
+}
+
+.learn-cont-details ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.learn-cont-details ul li p {
+    max-width: 374px;
+    font-size: 13px;
+    margin: 10px 0;
+    color: #4c0eaf;
+}
+
+.learn-cont-details ul li h5 {
+    font-size: 18px;
+    color: #4d1399;
+    font-weight: 600;
+}
+
+.service {
+    width: 100%;
+    margin: 150px auto 0;
+    background-color: #1c91e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sv-container {
+    width: 58%;
+    margin: 250px auto;
+    flex-wrap: wrap;
+}
+
+.sv-cont-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sv-cont-info-box img {
+    background-color: #1c91e4;
+    padding: 25px;
+    margin: 30px 0 0;
+    border-radius: 100%;
+}
+
+.sv-cont-info-box h3 {
+    font-size: 23px;
+    font-weight: 400;
+    color: #0e0c0c;
+    margin: 30px 0;
+}
+
+.sv-cont-info-box p {
+    margin: 0px 15px 30px 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #1e1c1c;
+    font-weight: 400;
+}
+
+.sv-cont-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sv-cont-info-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    border-radius: 40px;
+    width: 340px;
+}
+
+.sv-info-button {
+    margin: 0 0 38px 0;
+}
+
+.sv-info-button a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    background-color: red;
+    padding: 8px 20px;
+    border-radius: 100px;
+    text-decoration: none;
+}
